@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAAD7761FC3C717004E1C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7751FC3C717004E1C8A /* AppDelegate.swift */; };
+		8AAAD7781FC3C717004E1C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7771FC3C717004E1C8A /* ViewController.swift */; };
+		8AAAD77B1FC3C717004E1C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAAD7791FC3C717004E1C8A /* Main.storyboard */; };
+		8AAAD77E1FC3C717004E1C8A /* Selfix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD77C1FC3C717004E1C8A /* Selfix.xcdatamodeld */; };
+		8AAAD7801FC3C717004E1C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAAD77F1FC3C717004E1C8A /* Assets.xcassets */; };
+		8AAAD7831FC3C717004E1C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAAD7811FC3C717004E1C8A /* LaunchScreen.storyboard */; };
+		8AAAD78E1FC3C717004E1C8A /* SelfixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD78D1FC3C717004E1C8A /* SelfixTests.swift */; };
+		8AAAD7991FC3C717004E1C8A /* SelfixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7981FC3C717004E1C8A /* SelfixUITests.swift */; };
+		8AAAD7A71FC3C7E6004E1C8A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7A61FC3C7E6004E1C8A /* DetailViewController.swift */; };
+		8AAAD7A91FC3C7F7004E1C8A /* TypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7A81FC3C7F7004E1C8A /* TypeTableViewController.swift */; };
+		8AAAD7AB1FC3C80C004E1C8A /* MaintanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7AA1FC3C80C004E1C8A /* MaintanceTableViewController.swift */; };
+		8AAAD7AD1FC3C81A004E1C8A /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7AC1FC3C81A004E1C8A /* TypeTableViewCell.swift */; };
+		8AAAD7AF1FC3C826004E1C8A /* MaintanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD7AE1FC3C826004E1C8A /* MaintanceTableViewCell.swift */; };
+		D8033F5A3693DEFBDA5A999B /* Pods_Selfix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228495075D597312D4DD51BB /* Pods_Selfix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AAAD78A1FC3C717004E1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAAD76A1FC3C717004E1C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAAD7711FC3C717004E1C8A;
+			remoteInfo = Selfix;
+		};
+		8AAAD7951FC3C717004E1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAAD76A1FC3C717004E1C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAAD7711FC3C717004E1C8A;
+			remoteInfo = Selfix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		228495075D597312D4DD51BB /* Pods_Selfix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Selfix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87219A3446884D9DED8F1931 /* Pods-Selfix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Selfix/Pods-Selfix.release.xcconfig"; sourceTree = "<group>"; };
+		8AAAD7721FC3C717004E1C8A /* Selfix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAAD7751FC3C717004E1C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AAAD7771FC3C717004E1C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AAAD77A1FC3C717004E1C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AAAD77D1FC3C717004E1C8A /* Selfix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Selfix.xcdatamodel; sourceTree = "<group>"; };
+		8AAAD77F1FC3C717004E1C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AAAD7821FC3C717004E1C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AAAD7841FC3C717004E1C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAAD7891FC3C717004E1C8A /* SelfixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAAD78D1FC3C717004E1C8A /* SelfixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfixTests.swift; sourceTree = "<group>"; };
+		8AAAD78F1FC3C717004E1C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAAD7941FC3C717004E1C8A /* SelfixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAAD7981FC3C717004E1C8A /* SelfixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfixUITests.swift; sourceTree = "<group>"; };
+		8AAAD79A1FC3C717004E1C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAAD7A61FC3C7E6004E1C8A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8AAAD7A81FC3C7F7004E1C8A /* TypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTableViewController.swift; sourceTree = "<group>"; };
+		8AAAD7AA1FC3C80C004E1C8A /* MaintanceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintanceTableViewController.swift; sourceTree = "<group>"; };
+		8AAAD7AC1FC3C81A004E1C8A /* TypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
+		8AAAD7AE1FC3C826004E1C8A /* MaintanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintanceTableViewCell.swift; sourceTree = "<group>"; };
+		F6C55BE8A4CAAB017C20CB25 /* Pods-Selfix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Selfix/Pods-Selfix.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AAAD76F1FC3C717004E1C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8033F5A3693DEFBDA5A999B /* Pods_Selfix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAAD7861FC3C717004E1C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAAD7911FC3C717004E1C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAAD7691FC3C717004E1C8A = {
+			isa = PBXGroup;
+			children = (
+				8AAAD7741FC3C717004E1C8A /* Selfix */,
+				8AAAD78C1FC3C717004E1C8A /* SelfixTests */,
+				8AAAD7971FC3C717004E1C8A /* SelfixUITests */,
+				8AAAD7731FC3C717004E1C8A /* Products */,
+				F3881E07E82E9502830A2267 /* Pods */,
+				B0D820BC368085EC4B385E67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AAAD7731FC3C717004E1C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAAD7721FC3C717004E1C8A /* Selfix.app */,
+				8AAAD7891FC3C717004E1C8A /* SelfixTests.xctest */,
+				8AAAD7941FC3C717004E1C8A /* SelfixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AAAD7741FC3C717004E1C8A /* Selfix */ = {
+			isa = PBXGroup;
+			children = (
+				8AAAD7751FC3C717004E1C8A /* AppDelegate.swift */,
+				8AAAD7771FC3C717004E1C8A /* ViewController.swift */,
+				8AAAD7791FC3C717004E1C8A /* Main.storyboard */,
+				8AAAD77F1FC3C717004E1C8A /* Assets.xcassets */,
+				8AAAD7811FC3C717004E1C8A /* LaunchScreen.storyboard */,
+				8AAAD7841FC3C717004E1C8A /* Info.plist */,
+				8AAAD77C1FC3C717004E1C8A /* Selfix.xcdatamodeld */,
+				8AAAD7A61FC3C7E6004E1C8A /* DetailViewController.swift */,
+				8AAAD7A81FC3C7F7004E1C8A /* TypeTableViewController.swift */,
+				8AAAD7AA1FC3C80C004E1C8A /* MaintanceTableViewController.swift */,
+				8AAAD7AC1FC3C81A004E1C8A /* TypeTableViewCell.swift */,
+				8AAAD7AE1FC3C826004E1C8A /* MaintanceTableViewCell.swift */,
+			);
+			path = Selfix;
+			sourceTree = "<group>";
+		};
+		8AAAD78C1FC3C717004E1C8A /* SelfixTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAAD78D1FC3C717004E1C8A /* SelfixTests.swift */,
+				8AAAD78F1FC3C717004E1C8A /* Info.plist */,
+			);
+			path = SelfixTests;
+			sourceTree = "<group>";
+		};
+		8AAAD7971FC3C717004E1C8A /* SelfixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAAD7981FC3C717004E1C8A /* SelfixUITests.swift */,
+				8AAAD79A1FC3C717004E1C8A /* Info.plist */,
+			);
+			path = SelfixUITests;
+			sourceTree = "<group>";
+		};
+		B0D820BC368085EC4B385E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228495075D597312D4DD51BB /* Pods_Selfix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3881E07E82E9502830A2267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C55BE8A4CAAB017C20CB25 /* Pods-Selfix.debug.xcconfig */,
+				87219A3446884D9DED8F1931 /* Pods-Selfix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AAAD7711FC3C717004E1C8A /* Selfix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAAD79D1FC3C717004E1C8A /* Build configuration list for PBXNativeTarget "Selfix" */;
+			buildPhases = (
+				2F6782CBDF86D470BC64F846 /* [CP] Check Pods Manifest.lock */,
+				8AAAD76E1FC3C717004E1C8A /* Sources */,
+				8AAAD76F1FC3C717004E1C8A /* Frameworks */,
+				8AAAD7701FC3C717004E1C8A /* Resources */,
+				9C852BF42448CF1ED7240324 /* [CP] Embed Pods Frameworks */,
+				9B58461D011AF05C89F2D2C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Selfix;
+			productName = Selfix;
+			productReference = 8AAAD7721FC3C717004E1C8A /* Selfix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AAAD7881FC3C717004E1C8A /* SelfixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAAD7A01FC3C717004E1C8A /* Build configuration list for PBXNativeTarget "SelfixTests" */;
+			buildPhases = (
+				8AAAD7851FC3C717004E1C8A /* Sources */,
+				8AAAD7861FC3C717004E1C8A /* Frameworks */,
+				8AAAD7871FC3C717004E1C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAAD78B1FC3C717004E1C8A /* PBXTargetDependency */,
+			);
+			name = SelfixTests;
+			productName = SelfixTests;
+			productReference = 8AAAD7891FC3C717004E1C8A /* SelfixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AAAD7931FC3C717004E1C8A /* SelfixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAAD7A31FC3C717004E1C8A /* Build configuration list for PBXNativeTarget "SelfixUITests" */;
+			buildPhases = (
+				8AAAD7901FC3C717004E1C8A /* Sources */,
+				8AAAD7911FC3C717004E1C8A /* Frameworks */,
+				8AAAD7921FC3C717004E1C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAAD7961FC3C717004E1C8A /* PBXTargetDependency */,
+			);
+			name = SelfixUITests;
+			productName = SelfixUITests;
+			productReference = 8AAAD7941FC3C717004E1C8A /* SelfixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AAAD76A1FC3C717004E1C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Haidar Rais";
+				TargetAttributes = {
+					8AAAD7711FC3C717004E1C8A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8AAAD7881FC3C717004E1C8A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAAD7711FC3C717004E1C8A;
+					};
+					8AAAD7931FC3C717004E1C8A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAAD7711FC3C717004E1C8A;
+					};
+				};
+			};
+			buildConfigurationList = 8AAAD76D1FC3C717004E1C8A /* Build configuration list for PBXProject "Selfix" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AAAD7691FC3C717004E1C8A;
+			productRefGroup = 8AAAD7731FC3C717004E1C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AAAD7711FC3C717004E1C8A /* Selfix */,
+				8AAAD7881FC3C717004E1C8A /* SelfixTests */,
+				8AAAD7931FC3C717004E1C8A /* SelfixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AAAD7701FC3C717004E1C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAAD7831FC3C717004E1C8A /* LaunchScreen.storyboard in Resources */,
+				8AAAD7801FC3C717004E1C8A /* Assets.xcassets in Resources */,
+				8AAAD77B1FC3C717004E1C8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAAD7871FC3C717004E1C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAAD7921FC3C717004E1C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F6782CBDF86D470BC64F846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Selfix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B58461D011AF05C89F2D2C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selfix/Pods-Selfix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C852BF42448CF1ED7240324 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Selfix/Pods-Selfix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selfix/Pods-Selfix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AAAD76E1FC3C717004E1C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAAD7781FC3C717004E1C8A /* ViewController.swift in Sources */,
+				8AAAD7761FC3C717004E1C8A /* AppDelegate.swift in Sources */,
+				8AAAD7AF1FC3C826004E1C8A /* MaintanceTableViewCell.swift in Sources */,
+				8AAAD7AB1FC3C80C004E1C8A /* MaintanceTableViewController.swift in Sources */,
+				8AAAD7A91FC3C7F7004E1C8A /* TypeTableViewController.swift in Sources */,
+				8AAAD77E1FC3C717004E1C8A /* Selfix.xcdatamodeld in Sources */,
+				8AAAD7A71FC3C7E6004E1C8A /* DetailViewController.swift in Sources */,
+				8AAAD7AD1FC3C81A004E1C8A /* TypeTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAAD7851FC3C717004E1C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAAD78E1FC3C717004E1C8A /* SelfixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAAD7901FC3C717004E1C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAAD7991FC3C717004E1C8A /* SelfixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AAAD78B1FC3C717004E1C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAAD7711FC3C717004E1C8A /* Selfix */;
+			targetProxy = 8AAAD78A1FC3C717004E1C8A /* PBXContainerItemProxy */;
+		};
+		8AAAD7961FC3C717004E1C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAAD7711FC3C717004E1C8A /* Selfix */;
+			targetProxy = 8AAAD7951FC3C717004E1C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AAAD7791FC3C717004E1C8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAAD77A1FC3C717004E1C8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AAAD7811FC3C717004E1C8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAAD7821FC3C717004E1C8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AAAD79B1FC3C717004E1C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AAAD79C1FC3C717004E1C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AAAD79E1FC3C717004E1C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C55BE8A4CAAB017C20CB25 /* Pods-Selfix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Selfix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Selfix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AAAD79F1FC3C717004E1C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87219A3446884D9DED8F1931 /* Pods-Selfix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Selfix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.Selfix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AAAD7A11FC3C717004E1C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelfixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.SelfixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfix.app/Selfix";
+			};
+			name = Debug;
+		};
+		8AAAD7A21FC3C717004E1C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelfixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.SelfixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfix.app/Selfix";
+			};
+			name = Release;
+		};
+		8AAAD7A41FC3C717004E1C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelfixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.SelfixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Selfix;
+			};
+			name = Debug;
+		};
+		8AAAD7A51FC3C717004E1C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SelfixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.SelfixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Selfix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AAAD76D1FC3C717004E1C8A /* Build configuration list for PBXProject "Selfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAAD79B1FC3C717004E1C8A /* Debug */,
+				8AAAD79C1FC3C717004E1C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAAD79D1FC3C717004E1C8A /* Build configuration list for PBXNativeTarget "Selfix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAAD79E1FC3C717004E1C8A /* Debug */,
+				8AAAD79F1FC3C717004E1C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAAD7A01FC3C717004E1C8A /* Build configuration list for PBXNativeTarget "SelfixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAAD7A11FC3C717004E1C8A /* Debug */,
+				8AAAD7A21FC3C717004E1C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAAD7A31FC3C717004E1C8A /* Build configuration list for PBXNativeTarget "SelfixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAAD7A41FC3C717004E1C8A /* Debug */,
+				8AAAD7A51FC3C717004E1C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AAAD77C1FC3C717004E1C8A /* Selfix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AAAD77D1FC3C717004E1C8A /* Selfix.xcdatamodel */,
+			);
+			currentVersion = 8AAAD77D1FC3C717004E1C8A /* Selfix.xcdatamodel */;
+			path = Selfix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AAAD76A1FC3C717004E1C8A /* Project object */;
+}
